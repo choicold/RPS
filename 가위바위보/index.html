@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/ab5b2cefe4.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>가위바위보</title>
+  </head>
+  <body>
+    <div class="side" id="left">
+      <h1>Player</h1>
+      <div id="webcam-container"></div>
+      <div id="label-container"></div>
+    </div>
+
+    <div class="main">
+      <h1>가위 바위 보</h1>
+
+      <h2>점수</h2>
+
+      <div class="scorebox">
+        <span class="sidetext">Player</span>
+        <div class="score">
+          <span id="me">0</span>
+        </div>
+
+        <div class="score"><span>:</span></div>
+
+        <div class="score">
+          <span id="computer">0</span>
+        </div>
+        <span class="sidetext">Com</span>
+      </div>
+
+      <span id="text">If you're ready, start!</span>
+      <button id = "reset" onclick="init()">Start</button>
+    </div>
+
+    <div class="side" id="right">
+      <h1>Computer</h1>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
+ 

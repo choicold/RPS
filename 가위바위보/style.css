@@ -1,0 +1,97 @@
+body {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.main {
+  width: 33%;
+}
+
+.main h1 {
+  margin-bottom: 50px;
+}
+
+.scorebox {
+  border: 2px solid black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 30px 35px;
+}
+
+.score {
+  width: 33%;
+}
+.score:nth-child(1) {
+  display: flex;
+  justify-content: flex-end;
+}
+.score:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+.scorebox span {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#text {
+  font-size: 50px;
+  display: block;
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid black;
+  font-size: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 5px black;
+}
+
+.buttons:active {
+  transform: translateY(5px);
+  box-shadow: none;
+}
+.buttons:hover {
+  cursor: pointer;
+}
+
+#reset {
+  margin-top: 50px;
+  padding: 10px 20px;
+  background-color: white;
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  border: 2px solid black;
+  box-shadow: 0 5px black;
+}
+#reset:active {
+  transform: translateY(5px);
+  box-shadow: none;
+}
+#reset:hover {
+  cursor: pointer;
+}
+
+.side {
+  width: 33%;
+}
+
+.side h1 {
+  margin-bottom: 50px;
+}
+
+.side i {
+  font-size: 75px;
+}
