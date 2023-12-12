@@ -146,11 +146,11 @@ function printChoices(comChoice) {
   }
 
   if (comChoice === "r") {
-    rightChoice.className = "fa-solid fa-hand-back-fist fa-10x";
+    rightChoice.className = "fa-solid fa-hand-back-fist fa-8x";
   } else if (comChoice === "s") {
-    rightChoice.className = "fa-solid fa-hand-scissors fa-10x";
+    rightChoice.className = "fa-solid fa-hand-scissors fa-8x";
   } else {
-    rightChoice.className = "fa-solid fa-hand fa-10x";
+    rightChoice.className = "fa-solid fa-hand fa-8x";
   }
   rightSide.appendChild(rightChoice);
 }
